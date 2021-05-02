@@ -109,9 +109,11 @@ a,button:hover{
     outline: none;
     display: flex;
     -webkit-top-hightlight-color:transparent;
-    margin-top: 10px;
+    margin-top: 5px;
     height: 34px;
     font-size: 16px;
+    margin-left: 40px;
+    margin-right: 20px;
 }
 
 input{
@@ -126,5 +128,5 @@ input{
     cursor: text;
     font: 400 13.3333px Arial;
     display: 100%;
-    
+    flex: 100%;
 }
