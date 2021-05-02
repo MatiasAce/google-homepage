@@ -25,7 +25,7 @@ body,input,button{
     position: relative;
     float: right;
     padding-right: 4px;
-    min-width: 320px;
+   /* min-width: 320px;*/
 }
 .itemCont{
     font: 13px/27px Arial,sans-serif;
@@ -129,4 +129,92 @@ input{
     font: 400 13.3333px Arial;
     display: 100%;
     flex: 100%;
+}
+
+#bottomSearch{
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    height: 70px;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+.bottomBusca{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+#googleThanks{
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    font-size: small;
+    margin-bottom: 24px;
+    text-align: center;
+    display: inline-block;
+    line-height: 28px;
+    align-self: center;
+    display: block;
+    min-height: 155px;
+    width: auto;
+}
+
+#googleThanks a{
+    padding: 0 3px;
+    color: #1a0dab;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#footer{
+    background: #f2f2f2;
+    flex-shrink:0;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+#argen{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,0.54);
+    display: block;
+}
+
+#segundoFooter{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+
+.primeros4{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.cosasFooter{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
 }
