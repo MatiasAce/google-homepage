@@ -81,3 +81,50 @@ a,button:hover{
     width: auto;
     vertical-align: bottom;
 }
+
+#buscador{
+    width: auto;
+    max-width: 584px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    flex: 1;
+    flex-wrap: wrap;
+}
+#inp{
+    
+    white-space: pre;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-top-hightlight-color:transparent;
+    margin-top: 10px;
+    height: 34px;
+    font-size: 16px;
+}
+
+input{
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    font: 400 13.3333px Arial;
+    display: 100%;
+    
+}
